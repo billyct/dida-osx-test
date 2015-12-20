@@ -13,6 +13,8 @@
 		E8D87A431C2751ED00ABC485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D87A411C2751ED00ABC485 /* Main.storyboard */; };
 		E8D87A4E1C2751ED00ABC485 /* didaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A4D1C2751ED00ABC485 /* didaTests.swift */; };
 		E8D87A591C2751EE00ABC485 /* didaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A581C2751EE00ABC485 /* didaUITests.swift */; };
+		E8D87A671C27522200ABC485 /* DidaWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A661C27522200ABC485 /* DidaWindowController.swift */; };
+		E8D87A691C27523500ABC485 /* DidaWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A681C27523500ABC485 /* DidaWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		E8D87A541C2751EE00ABC485 /* didaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = didaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D87A581C2751EE00ABC485 /* didaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = didaUITests.swift; sourceTree = "<group>"; };
 		E8D87A5A1C2751EE00ABC485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D87A661C27522200ABC485 /* DidaWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidaWindowController.swift; sourceTree = "<group>"; };
+		E8D87A681C27523500ABC485 /* DidaWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidaWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				E8D87A3F1C2751ED00ABC485 /* Assets.xcassets */,
 				E8D87A411C2751ED00ABC485 /* Main.storyboard */,
 				E8D87A441C2751ED00ABC485 /* Info.plist */,
+				E8D87A661C27522200ABC485 /* DidaWindowController.swift */,
+				E8D87A681C27523500ABC485 /* DidaWindow.swift */,
 			);
 			path = dida;
 			sourceTree = "<group>";
@@ -253,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8D87A3E1C2751ED00ABC485 /* ViewController.swift in Sources */,
+				E8D87A691C27523500ABC485 /* DidaWindow.swift in Sources */,
+				E8D87A671C27522200ABC485 /* DidaWindowController.swift in Sources */,
 				E8D87A3C1C2751ED00ABC485 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
