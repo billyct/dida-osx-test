@@ -17,11 +17,6 @@ class DidaWindow: NSWindow {
     
     
     override func sendEvent(theEvent: NSEvent) {
-        if(theEvent.type == NSEventType.KeyDown) {
-            if(theEvent.keyCode == 36) {
-                return;
-            }
-        }
         
         
         if(theEvent.type == NSEventType.LeftMouseDown) {
