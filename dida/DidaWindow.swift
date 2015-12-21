@@ -15,6 +15,7 @@ class DidaWindow: NSWindow {
     var initLocation: NSPoint = NSPoint(x: 0, y: 0)
     
     
+    
     override func sendEvent(theEvent: NSEvent) {
         if(theEvent.type == NSEventType.KeyDown) {
             if(theEvent.keyCode == 36) {
@@ -36,7 +37,6 @@ class DidaWindow: NSWindow {
     
     override func mouseDown(theEvent: NSEvent) {
         initLocation = theEvent.locationInWindow
-        
     }
     
     override func mouseDragged(theEvent: NSEvent) {
@@ -48,15 +48,22 @@ class DidaWindow: NSWindow {
         
         
         if(currentLocation.y > windowFrame.size.height - 40) {
+            
+            
             newOrigin.x += (currentLocation.x - initLocation.x);
             newOrigin.y += (currentLocation.y - initLocation.y);
+            
             
             if ((newOrigin.y  + windowFrame.size.height) > (screenVisibleFrame.origin.y + screenVisibleFrame.size.height)){
                 newOrigin.y = screenVisibleFrame.origin.y + (screenVisibleFrame.size.height - windowFrame.size.height);
             }
             
+            
             self.setFrameOrigin(newOrigin)
         }
         
     }
+    
+    
+   
 }

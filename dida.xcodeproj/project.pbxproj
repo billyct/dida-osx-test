@@ -15,6 +15,7 @@
 		E8D87A591C2751EE00ABC485 /* didaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A581C2751EE00ABC485 /* didaUITests.swift */; };
 		E8D87A671C27522200ABC485 /* DidaWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A661C27522200ABC485 /* DidaWindowController.swift */; };
 		E8D87A691C27523500ABC485 /* DidaWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A681C27523500ABC485 /* DidaWindow.swift */; };
+		E8D87A6F1C27C0A900ABC485 /* DragableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D87A6E1C27C0A900ABC485 /* DragableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E8D87A5A1C2751EE00ABC485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8D87A661C27522200ABC485 /* DidaWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidaWindowController.swift; sourceTree = "<group>"; };
 		E8D87A681C27523500ABC485 /* DidaWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidaWindow.swift; sourceTree = "<group>"; };
+		E8D87A6E1C27C0A900ABC485 /* DragableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E8D87A441C2751ED00ABC485 /* Info.plist */,
 				E8D87A661C27522200ABC485 /* DidaWindowController.swift */,
 				E8D87A681C27523500ABC485 /* DidaWindow.swift */,
+				E8D87A6E1C27C0A900ABC485 /* DragableView.swift */,
 			);
 			path = dida;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				E8D87A691C27523500ABC485 /* DidaWindow.swift in Sources */,
 				E8D87A671C27522200ABC485 /* DidaWindowController.swift in Sources */,
 				E8D87A3C1C2751ED00ABC485 /* AppDelegate.swift in Sources */,
+				E8D87A6F1C27C0A900ABC485 /* DragableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

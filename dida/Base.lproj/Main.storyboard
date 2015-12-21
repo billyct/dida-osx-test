@@ -681,21 +681,31 @@
                                     <nil key="identifier"/>
                                 </webPreferences>
                             </webView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="YGn-TJ-bUe" customClass="DragableView" customModule="dida" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="230" width="480" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="mGe-7f-9kx"/>
+                                </constraints>
+                            </customView>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="66j-Vf-q03" secondAttribute="trailing" id="5eJ-ri-Zfk"/>
                             <constraint firstItem="66j-Vf-q03" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="IDR-vo-BX8"/>
                             <constraint firstAttribute="bottom" secondItem="66j-Vf-q03" secondAttribute="bottom" id="NDt-GB-U89"/>
+                            <constraint firstItem="YGn-TJ-bUe" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Nco-74-bja"/>
+                            <constraint firstAttribute="trailing" secondItem="YGn-TJ-bUe" secondAttribute="trailing" id="f29-mX-2C3"/>
                             <constraint firstItem="66j-Vf-q03" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="mge-Dv-3v3"/>
+                            <constraint firstItem="YGn-TJ-bUe" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="tqH-Tv-wnm"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="dragView" destination="YGn-TJ-bUe" id="hjv-S7-qjz"/>
                         <outlet property="webView" destination="66j-Vf-q03" id="uWE-65-3Wd"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="34" y="755"/>
         </scene>
     </scenes>
 </document>

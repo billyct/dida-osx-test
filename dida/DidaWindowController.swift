@@ -39,6 +39,9 @@ class DidaWindowController: NSWindowController {
         //获取事件什么的
         window?.becomeKeyWindow()
         window?.becomeFirstResponder()
+        
+        
+        
     }
 
 }

@@ -9,9 +9,12 @@
 import Cocoa
 import WebKit
 
+
+
 class ViewController: NSViewController, WebFrameLoadDelegate {
 
     @IBOutlet weak var webView: WebView!
+    @IBOutlet weak var dragView: DragableView!
     
     let webUrl = "https://dida365.com"
     
@@ -27,7 +30,18 @@ class ViewController: NSViewController, WebFrameLoadDelegate {
         webView.frameLoadDelegate = self //delegate 你懂的
         webView.mainFrame.loadRequest(request)
         webView.drawsBackground = false //我不想要白色的背景
+        
+        
+//        dragView.wantsLayer = true
+//        dragView.layer?.backgroundColor = CGColorCreateGenericRGB(0.0, 0.0, 0.0, 1);
+        
+        
     }
+    
+    
+    
+    
+    
 
     
     
